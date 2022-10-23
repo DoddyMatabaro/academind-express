@@ -18,6 +18,7 @@
                             <p><%= product.description %></p>
                        </div>
                        <div>
+                            <a href="/products/<%= product.id %>">Details</a>
                             <form action="/add-to-cart" method="post">
                                 <button>Add to Cart</button>
                             </form>

@@ -18,7 +18,9 @@
                             <p><%= product.description %></p>
                        </div>
                        <div>
-                            <button>Add to Cart</button>
+                            <form action="/add-to-cart" method="post">
+                                <button>Add to Cart</button>
+                            </form>
                        </div>
                     </article>
                 <% } %>
